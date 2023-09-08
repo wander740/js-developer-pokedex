@@ -20,10 +20,13 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokeDetail.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <section class="content">
+    <section id="content">
         <h1>Pokedex</h1>
 
         <ol id="pokemonList" class="pokemons">
@@ -34,6 +37,17 @@
             <button id="loadMoreButton" type="button">
                 Load More
             </button>
+        </div>
+    </section>
+
+    <section id="pokeDetail">
+        <div id="detailTop">
+            <i class="material-icons" onclick="back()">arrow_back</i>
+
+        </div>
+
+        <div id="detailBot">
+            
         </div>
     </section>
 

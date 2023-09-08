@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
@@ -134,6 +135,10 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+}
+
+.pagination #loadMoreButton{
+    cursor: pointer;
 }
 
 .pagination button {
